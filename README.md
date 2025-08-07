@@ -1,6 +1,6 @@
 # Auto Streamer
 
-Auto Streamer adalah skrip Python untuk melakukan streaming video secara otomatis ke platform YouTube dan/atau Facebook menggunakan FFmpeg.
+Auto Streamer adalah skrip Python untuk melakukan streaming video secara otomatis ke platform YouTube/Facebook menggunakan FFmpeg.
 
 ---
 
