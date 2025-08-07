@@ -97,14 +97,13 @@ c:/AUTO-STREAM/
 Berikut adalah struktur isi folder proyek ini agar tidak membingungkan:
 
 
----
+## Buy Me a Coffee
 
-## 📄 Lisensi
-MIT License
+- **EVM:** 0x905d0505Ec007C9aDb5CF005535bfcC5E43c0B66
+- **TON:** UQCFO7vVP0N8_K4JUCfqlK6tsofOF4KEhpahEEdXBMQ-MVQL
+- **SOL:** BmqfjRHAKXUSKATuhbjPZfcNciN3J2DA1tqMgw9aGMdj
 
----
+Thank you for visiting this repository, don't forget to contribute in the form of follows and stars.
+If you have questions, find an issue, or have suggestions for improvement, feel free to contact me or open an *issue* in this GitHub repository.
 
-Jika Anda membutuhkan bantuan lebih lanjut, silakan hubungi.
-python live_streamer_fixed.py
-.\add_ffmpeg_path.ps1
-.\install_ffmpeg.ps1
+**deasaputra**
