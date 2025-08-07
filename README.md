@@ -13,14 +13,25 @@ Auto Streamer adalah skrip Python untuk melakukan streaming video secara otomati
 - FFmpeg terinstal (direkomendasikan menggunakan skrip `install_ffmpeg.ps1` untuk instalasi di Windows)
 - Folder `videos` berisi file video dengan format `.mp4`, `.mkv`, atau `.mov`
 
-## Cara Instalasi FFmpeg
-1. Jalankan skrip PowerShell `install_ffmpeg.ps1` untuk menginstal FFmpeg via winget (Windows 10/11)
-2. Tambahkan FFmpeg ke PATH sistem menggunakan `add_ffmpeg_path.ps1` atau `fix_ffmpeg_path.bat`
-3. Verifikasi instalasi dengan menjalankan `python cek_ffmpeg.py`
-
-## Cara Menggunakan
-1. Pastikan folder `videos` berisi video yang ingin di-streaming
-2. Jalankan skrip `live_streamer_fixed.py`:
+## Cara Instalasi FFmpeg dan Menjalankan Streaming
+1. Jalankan skrip PowerShell `install_ffmpeg.ps1` untuk menginstal FFmpeg via winget (Windows 10/11):
+   ```powershell
+   .\install_ffmpeg.ps1
+   ```
+2. Tambahkan FFmpeg ke PATH sistem menggunakan `add_ffmpeg_path.ps1` atau `fix_ffmpeg_path.bat`:
+   ```powershell
+   .\add_ffmpeg_path.ps1
+   ```
+   atau jalankan batch file:
+   ```cmd
+   fix_ffmpeg_path.bat
+   ```
+3. Verifikasi instalasi dengan menjalankan:
+   ```bash
+   python cek_ffmpeg.py
+   ```
+4. Pastikan folder `videos` berisi video yang ingin di-streaming
+5. Jalankan skrip streaming:
    ```bash
    python live_streamer_fixed.py
    ```
@@ -43,13 +54,9 @@ Auto Streamer adalah skrip Python untuk melakukan streaming video secara otomati
 - `cek_ffmpeg.py`: Skrip untuk memeriksa instalasi FFmpeg
 - `videos/`: Folder tempat meletakkan file video untuk streaming
 
-## Buy Me a Coffee
+## Lisensi
+MIT License
 
-- **EVM:** 0x905d0505Ec007C9aDb5CF005535bfcC5E43c0B66
-- **TON:** UQCFO7vVP0N8_K4JUCfqlK6tsofOF4KEhpahEEdXBMQ-MVQL
-- **SOL:** BmqfjRHAKXUSKATuhbjPZfcNciN3J2DA1tqMgw9aGMdj
+---
 
-Thank you for visiting this repository, don't forget to contribute in the form of follows and stars.
-If you have questions, find an issue, or have suggestions for improvement, feel free to contact me or open an *issue* in this GitHub repository.
-
-**deasaputra**
+Jika Anda membutuhkan bantuan lebih lanjut, silakan hubungi.
